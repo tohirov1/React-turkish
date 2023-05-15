@@ -1,0 +1,40 @@
+.site-header {
+  background-color: #bb2339;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-item + .logo-item {
+  margin-right: 40px;
+}
+.logo-btn {
+  width: 80px;
+  border-radius: 20px;
+  padding: 10px 0;
+  border: 2px solid white;
+  color: white;
+  background-color: #bb2339;
+}
+.link {
+  font-size: 16px;
+  line-height: 22px;
+  line-height: 100%;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+}
+/* .body{
+  background-color: gray;
+  color: white;
+}
+.dark{
+  background-color: blue;
+  color: #ffff;
+} */

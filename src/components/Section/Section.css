@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.hero-left {
+  padding-top: 105px;
+}
+.hero-img {
+  max-width: 700px;
+  height: 600px;
+}
+.site-section {
+  background-color: #bb2339;
+}
+.hero-top {
+  font-size: 23px;
+  line-height: 30px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  color: #ffffff;
+}
+.hero-title {
+  font-size: 70px;
+  line-height: 100px;
+  line-height: 110%;
+  letter-spacing: 4%;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hero-text {
+  font-size: 16px;
+  line-height: 20px;
+  line-height: 155%;
+  opacity: 70%;
+  color: #ffffff;
+}
+.hero-btn{
+    width: 140px;
+    padding: 10px 0;
+    background-color: #bb2339;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    margin-top: 25px;
+}

@@ -1,0 +1,170 @@
+.site-section4{
+    background-color: #F4F4F4;
+    margin-top: 120px;
+}
+.textra{
+    color: #AAAAAA;
+    max-width: 400px;
+    margin-right: 10px;
+}
+.wrappper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+}
+.wrapper-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.michel{
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.instagram{
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.tuxum{
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.bacround{
+    position: absolute;
+    background-image: url(../../Asstes/Images/piyola.png);
+    max-width: 300px;
+    border-radius: 15px;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    left: 95%;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1348px) {
+    .bacround{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1016px) {
+   .michel{
+    width: 200px;
+    height: 230px;
+   }
+   .instagram{
+    width: 200px;
+    height: 230px;
+   }
+   .tuxum {
+    width: 200px;
+    height: 230px;
+   }
+   .textra{
+    font-size: 12px;
+   }
+    .photo{
+        font-size: 18px;
+    }
+    .insta{
+        font-size: 16px;
+    }
+    .section-btn{
+        width: 70px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .michel{
+        width: 180px;
+        height: 180px;
+       }
+       .instagram{
+        width: 180px;
+        height: 180px;
+       }
+       .tuxum {
+        width: 180px;
+        height: 180px;
+       }
+       .section-btn{
+        display: none;
+       }
+}
+@media only screen and (max-width: 770px) {
+    .wrappper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .michel{
+        max-width: 750px;
+        width: 100%;
+        height: 500px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+    .instagram{
+        max-width: 750px;
+        width: 100%;
+        height: 500px;
+        border-radius: 15px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+    .tuxum{
+        max-width: 750px;
+        width: 100%;
+        height: 500px;
+        border-radius: 15px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+    .textra{
+        font-size: 18px;
+       }
+        .photo{
+            font-size: 36px;
+        }
+        .insta{
+            font-size: 24px;
+        }
+        .section-btn{
+            width: 140px;
+            font-size: 17px;
+            display: block;
+           
+        }
+        .all-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        
+}
